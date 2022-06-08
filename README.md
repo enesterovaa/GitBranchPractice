@@ -73,7 +73,8 @@
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 
-
+        Pull requests -> Compare & pull request -> Create pull request - Merge pull request
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
 
+        $ git pull
