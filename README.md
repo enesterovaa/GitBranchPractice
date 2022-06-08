@@ -1,4 +1,4 @@
-# Programs
+# Git branch practice
 
 1. На локальном репозитории сделать ветки для:
 >- Postman
