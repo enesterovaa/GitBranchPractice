@@ -21,7 +21,7 @@
 
         $ git push -u origin --all
 
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+3. В ветке BUg_Reports сделать текстовый документ со структурой баг репорта
 
         $ cat >> bug_report_structure.txt
         Summary
@@ -45,7 +45,7 @@
         $ git commit -m "add bug_report_structure"
         $ git push
 
-5. Вмержить ветку Bag Reports в Main
+5. Вмержить ветку BUg_Reports в Main
 
         $ git checkout main
         $ git merge Bug_Reports -m "merge Bug_Reports"
@@ -56,10 +56,24 @@
 
 7. В ветке CheckLists набросать структуру чек листа.
 
-        
+        $ cat >> CheckList1.txt
+        1) Build
+        2) Environment
+        3) Test date
+        4) Tester
+        5) Test type
+        6) Checking
+        7) Result
 
 8. Запушить структуру на внешний репозиторий
 
+        $ git add
+        $ git commit -m "add CheckList1.txt"
+        $ git push
+
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 
+
+
 10. Синхронизировать Внешнюю и Локальную ветки Main
+
