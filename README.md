@@ -11,11 +11,11 @@
 
         $ git branch Postman
         $ git branch Jmeter
-        $ git branch CheckLists
-        $ git branch Bug_Reports
+        $ git branch checkLists
+        $ git branch bugReports
         $ git branch SQL
         $ git branch Charles
-        $ git branch Mobile_testing
+        $ git branch mobileTesting
 
 2. Запушить все ветки на внешний репозиторий
 
